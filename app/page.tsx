@@ -27,7 +27,7 @@ export default function Home() {
           <div className="flex-1">
             <div className="flex flex-col gap-16">
               <ProductsGroupList
-                title={'Pizzas'}
+                title={'Пиццы'}
                 items={[
                   {
                     id: 1,
@@ -35,8 +35,56 @@ export default function Home() {
                     imageUrl: '',
                     items: [{ price: 200 }],
                   },
+                  {
+                    id: 2,
+                    name: 'Пепперони',
+                    imageUrl: '',
+                    items: [{ price: 200 }],
+                  },
+                  {
+                    id: 3,
+                    name: 'Пепперони',
+                    imageUrl: '',
+                    items: [{ price: 200 }],
+                  },
+                  {
+                    id: 4,
+                    name: 'Пепперони',
+                    imageUrl: '',
+                    items: [{ price: 200 }],
+                  },
                 ]}
                 categoryId={1}
+              />
+              <ProductsGroupList
+                title={'Комбо'}
+                items={[
+                  {
+                    id: 5,
+                    name: 'Пепперони',
+                    imageUrl: '',
+                    items: [{ price: 200 }],
+                  },
+                  {
+                    id: 6,
+                    name: 'Пепперони',
+                    imageUrl: '',
+                    items: [{ price: 200 }],
+                  },
+                  {
+                    id: 7,
+                    name: 'Пепперони',
+                    imageUrl: '',
+                    items: [{ price: 200 }],
+                  },
+                  {
+                    id: 8,
+                    name: 'Пепперони',
+                    imageUrl: '',
+                    items: [{ price: 200 }],
+                  },
+                ]}
+                categoryId={2}
               />
             </div>
           </div>
