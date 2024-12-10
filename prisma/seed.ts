@@ -153,7 +153,7 @@ async function up() {
       productItemId: 1,
       quantity: 2,
       ingredients: {
-        connect: ingredients.slice(0, 5),
+        connect: [{ id: 1 }, { id: 2 }, { id: 3 }],
       },
     },
   });
