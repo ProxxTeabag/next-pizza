@@ -103,13 +103,13 @@ model Cart {
 model CartItem {
     id Int @id @default(autoincrement())
 
-    quantity Int
-
     cart   Cart @relation(fields: [cartId], references: [id])
     cartId Int
 
     productItem   ProductItem @relation(fields: [productItemId], references: [id])
     productItemId Int
+
+    quantity Int @default(1)
 
     ingredients Ingredient[]
 
