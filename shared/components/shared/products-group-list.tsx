@@ -2,11 +2,11 @@
 
 import React from 'react';
 import { useIntersection } from 'react-use';
-import { ProductCard, Title } from '.';
+import { Title } from '.';
 import { cn } from '@/shared/lib/utils';
 import { useCategoryStore } from '@/shared/store/category';
-import { Product } from '@prisma/client';
 import { ProductWithRelations } from '@/@types/prisma';
+import { ProductCard } from './product-card';
 
 type Props = {
   title: string;
